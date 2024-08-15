@@ -1,0 +1,24 @@
+kernel_size=3, num_kernels=32, dropout_rate=0.3
+- Validation accuracy: 0.5120000243186951
+- Validation loss: 2.0217652320861816
+kernel_size=3, num_kernels=32, dropout_rate=0.5
+- Validation accuracy: 0.5220000147819519
+- Validation loss: 1.7864352464675903
+kernel_size=3, num_kernels=64, dropout_rate=0.3
+- Validation accuracy: 0.5260000228881836
+- Validation loss: 2.0507378578186035
+kernel_size=3, num_kernels=64, dropout_rate=0.5
+- Validation accuracy: 0.5540000200271606
+- Validation loss: 1.8529260158538818
+kernel_size=5, num_kernels=32, dropout_rate=0.3
+- Validation accuracy: 0.5040000081062317
+- Validation loss: 2.084362268447876
+kernel_size=5, num_kernels=32, dropout_rate=0.5
+- Validation accuracy: 0.5220000147819519
+- Validation loss: 1.7687864303588867
+kernel_size=5, num_kernels=64, dropout_rate=0.3
+- Validation accuracy: 0.5220000147819519
+- Validation loss: 2.0216050148010254
+kernel_size=5, num_kernels=64, dropout_rate=0.5
+- Validation accuracy: 0.5619999766349792
+- Validation loss: 1.7641303539276123
