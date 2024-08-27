@@ -1,24 +1,61 @@
-kernel_size=3, num_kernels=32, dropout_rate=0.3
-- Validation accuracy: 0.5120000243186951
-- Validation loss: 2.0217652320861816
-kernel_size=3, num_kernels=32, dropout_rate=0.5
-- Validation accuracy: 0.5220000147819519
-- Validation loss: 1.7864352464675903
-kernel_size=3, num_kernels=64, dropout_rate=0.3
-- Validation accuracy: 0.5260000228881836
-- Validation loss: 2.0507378578186035
-kernel_size=3, num_kernels=64, dropout_rate=0.5
-- Validation accuracy: 0.5540000200271606
-- Validation loss: 1.8529260158538818
-kernel_size=5, num_kernels=32, dropout_rate=0.3
-- Validation accuracy: 0.5040000081062317
-- Validation loss: 2.084362268447876
-kernel_size=5, num_kernels=32, dropout_rate=0.5
-- Validation accuracy: 0.5220000147819519
-- Validation loss: 1.7687864303588867
-kernel_size=5, num_kernels=64, dropout_rate=0.3
-- Validation accuracy: 0.5220000147819519
-- Validation loss: 2.0216050148010254
-kernel_size=5, num_kernels=64, dropout_rate=0.5
-- Validation accuracy: 0.5619999766349792
-- Validation loss: 1.7641303539276123
+Testing kernel_size=3, num_kernels=32, dropout_rate=0.3
+- Validation Accuracy: 0.59
+- Validation Loss: 1.97
+Testing kernel_size=3, num_kernels=32, dropout_rate=0.5
+- Validation Accuracy: 0.59
+- Validation Loss: 1.85
+Testing kernel_size=3, num_kernels=64, dropout_rate=0.3
+- Validation Accuracy: 0.67
+- Validation Loss: 1.77
+Testing kernel_size=3, num_kernels=64, dropout_rate=0.5
+- Validation Accuracy: 0.64
+- Validation Loss: 1.79
+
+Testing kernel_size=5, num_kernels=32, dropout_rate=0.3
+- Validation Accuracy: 0.61
+- Validation Loss: 1.96
+Testing kernel_size=5, num_kernels=32, dropout_rate=0.5
+- Validation Accuracy: 0.59
+- Validation Loss: 1.56
+Testing kernel_size=5, num_kernels=64, dropout_rate=0.3
+- Validation Accuracy: 0.68
+- Validation Loss: 2.03
+
+Testing kernel_size=3, num_kernels=64, dropout_rate=0.3
+- Validation Accuracy: 0.65
+- Validation Loss: 1.84
+Testing kernel_size=3, num_kernels=64, dropout_rate=0.5
+- Validation Accuracy: 0.64
+- Validation Loss: 1.71
+Testing kernel_size=5, num_kernels=64, dropout_rate=0.3
+- Validation Accuracy: 0.61
+- Validation Loss: 2.00
+Testing kernel_size=5, num_kernels=64, dropout_rate=0.5
+- Validation Accuracy: 0.60
+- Validation Loss: 1.74
+
+
+Testing kernel_size=3, num_kernels=32, dropout_rate=0.3
+- Validation Accuracy: 0.61
+- Validation Loss: 1.88
+Testing kernel_size=3, num_kernels=32, dropout_rate=0.5
+- Validation Accuracy: 0.60
+- Validation Loss: 1.84
+Testing kernel_size=3, num_kernels=64, dropout_rate=0.3
+- Validation Accuracy: 0.64
+- Validation Loss: 1.89
+Testing kernel_size=3, num_kernels=64, dropout_rate=0.5
+- Validation Accuracy: 0.65
+- Validation Loss: 1.70
+Testing kernel_size=5, num_kernels=32, dropout_rate=0.3
+- Validation Accuracy: 0.55
+- Validation Loss: 2.14
+Testing kernel_size=5, num_kernels=32, dropout_rate=0.5
+- Validation Accuracy: 0.58
+- Validation Loss: 1.61
+Testing kernel_size=5, num_kernels=64, dropout_rate=0.3
+- Validation Accuracy: 0.65
+- Validation Loss: 1.97
+Testing kernel_size=5, num_kernels=64, dropout_rate=0.5
+- Validation Accuracy: 0.65
+- Validation Loss: 1.58
