@@ -59,3 +59,48 @@ Testing kernel_size=5, num_kernels=64, dropout_rate=0.3
 Testing kernel_size=5, num_kernels=64, dropout_rate=0.5
 - Validation Accuracy: 0.65
 - Validation Loss: 1.58
+Testing kernel_size=3, num_kernels=32, dropout_rate=0.3
+- Validation Accuracy: 0.63
+- Validation Loss: 1.63
+
+========================================================
+
+Testing kernel_size=3, num_kernels=32, dropout_rate=0.3     O
+- Validation Accuracy: 0.63
+- Validation Loss: 1.67
+- Training Time: 47.24 seconds
+
+Testing kernel_size=3, num_kernels=32, dropout_rate=0.5     X
+- Validation Accuracy: 0.58
+- Validation Loss: 1.45
+- Training Time: 89.24 seconds
+
+Testing kernel_size=3, num_kernels=64, dropout_rate=0.3     O
+- Validation Accuracy: 0.67
+- Validation Loss: 1.34
+- Training Time: 220.26 seconds
+
+Testing kernel_size=3, num_kernels=64, dropout_rate=0.5     X
+- Validation Accuracy: 0.56
+- Validation Loss: 1.57
+- Training Time: 222.73 seconds
+
+Testing kernel_size=5, num_kernels=32, dropout_rate=0.3     O
+- Validation Accuracy: 0.65
+- Validation Loss: 1.49
+- Training Time: 133.04 seconds
+
+Testing kernel_size=5, num_kernels=32, dropout_rate=0.5     X
+- Validation Accuracy: 0.58
+- Validation Loss: 1.41
+- Training Time: 134.09 seconds
+
+Testing kernel_size=5, num_kernels=64, dropout_rate=0.3     X
+- Validation Accuracy: 0.56
+- Validation Loss: 1.56
+- Training Time: 421.28 seconds
+
+Testing kernel_size=5, num_kernels=64, dropout_rate=0.5     X
+- Validation Accuracy: 0.32
+- Validation Loss: 1.92
+- Training Time: 450.07 seconds
